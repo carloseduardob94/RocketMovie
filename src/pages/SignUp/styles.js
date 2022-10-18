@@ -31,7 +31,7 @@ export const Form = styled.form`
     line-height: 63px;
     font-weight: 700;
 
-    color: ${({ theme }) => theme.COLORS.PINK};
+    color: ${({ theme }) => theme.COLORS.PINK_100};
   }
 
   > p {
