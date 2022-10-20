@@ -17,7 +17,7 @@ export const Container = styled.div`
     ::-webkit-scrollbar {
       width: 8px;
       border-radius: 8px;
-      background-color: darkgrey;
+      background-color: transparent;
     }
 
     ::-webkit-scrollbar-thumb {
