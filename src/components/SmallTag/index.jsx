@@ -1,9 +1,9 @@
 import { Container } from './styles'
 
-export function SmallTag(){
+export function SmallTag({ title }){
   return(
     <Container>
-      <p>Ficção Científica</p>
+      <p>{title}</p>
     </Container>
   )
 }

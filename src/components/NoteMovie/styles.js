@@ -21,6 +21,10 @@ export const Container = styled.div`
 
     margin-bottom: 15px;
     color: ${({ theme }) => theme.COLORS.PINK_100};
+
+    svg {
+      fill: ${({ theme }) => theme.COLORS.PINK_100};
+    }
   }
 
   .tags {
