@@ -1,6 +1,8 @@
 import { Container, Form, Section } from './styles'
 import { FiArrowLeft } from 'react-icons/fi'
 
+import { Link } from 'react-router-dom'
+
 import { Header } from '../../components/Header'
 import { Input } from '../../components/Input'
 import { TextArea } from '../../components/TextArea'
@@ -15,7 +17,7 @@ export function CreateMovie(){
       <main>
         <Form>
           <header>
-            <a href="#"><FiArrowLeft /> Voltar</a>
+            <Link to="/" ><FiArrowLeft /> Voltar</Link>
             <h2>Novo filme</h2>
           </header>
 
@@ -46,10 +48,7 @@ export function CreateMovie(){
           
             <div className="buttons">
               <Button 
-                title="Excluir filme"
-              />
-              <Button 
-                title="Salvar alterações"
+                title="Salvar filme"
               />
             </div>
 

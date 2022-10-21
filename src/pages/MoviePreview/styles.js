@@ -10,9 +10,10 @@ export const Container = styled.div`
     'content';
 
   > main {
-    margin: 40px auto 100px;
+    margin: 40px auto 0;
     grid-area: content;
-    max-width: 1137px;
+    width: 1157px;
+    padding: 0 20px;
 
     overflow-y: auto;
 
@@ -38,5 +39,13 @@ export const Container = styled.div`
         margin-right: 8px;
       }
     }
+  }
+
+  > button {
+    margin: 30px auto 30px;
+    max-width: 500px;
+
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    color: ${({ theme }) => theme.COLORS.PINK_100};
   }
 `

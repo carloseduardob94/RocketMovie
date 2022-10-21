@@ -14,6 +14,10 @@ export const Container = styled.div`
     grid-area: content;
     overflow-y: auto;
 
+    width: 1157px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+
     ::-webkit-scrollbar {
       width: 8px;
       border-radius: 8px;
@@ -28,9 +32,6 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-  width: 1137px;
-  margin: 50px auto 0;
-
   > header {
     h2 {
       color: ${({ theme }) => theme.COLORS.WHITE};

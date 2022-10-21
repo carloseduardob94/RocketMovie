@@ -1,5 +1,8 @@
+import { Link } from 'react-router-dom'
 import { Input } from '../Input'
 import { Container, Profile } from './styled'
+
+
 
 export function Header(){
   return(
@@ -11,14 +14,14 @@ export function Header(){
 
       <Profile>
         <div>
-          <a href="#">
+          <Link to="/perfil">
             <span>Carlos Eduardo</span>
-          </a>
-          <a href="#">sair</a>
+          </Link>
+          <Link to="/">sair</Link>
         </div>
-        <a href="#">
+        <Link to="/perfil">
           <img src="https://github.com/carloseduardob94.png" alt="Foto do usuário" />   
-        </a>
+        </Link>
       </Profile>
     </Container>
   )

@@ -51,7 +51,7 @@ export const Form = styled.form`
     display: flex;
     align-items: center;
 
-    color: ${({ theme }) => theme.COLORS.PINK};
+    color: ${({ theme }) => theme.COLORS.PINK_100};
 
     svg {
       font-size: 24px;

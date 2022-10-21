@@ -6,7 +6,7 @@ import{ SmallTag } from '../SmallTag'
 
 export function NoteMovie(){
   return(
-    <Container>
+    <Container to="moviepreview/5">
       <h2>Interestellar</h2>
       <div className="star-icons">
         <FiStar />

@@ -11,6 +11,8 @@ export const Container = styled.div`
     'content';
 
   > main {
+    margin: 40px auto;
+
     grid-area: content;
     overflow-y: auto;
 
@@ -28,8 +30,8 @@ export const Container = styled.div`
 `
 
 export const Form = styled.form`
-  max-width: 1137px;
-  margin: 40px auto;
+  width: 1157px;
+  padding: 0 20px;
 
   > header {
     align-self: flex-start;
@@ -67,11 +69,9 @@ export const Form = styled.form`
     display: flex;
     align-items: center;
     gap: 40px;
+    margin: 0 auto;
 
-    button:first-child {
-      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-      color: ${({ theme }) => theme.COLORS.PINK_100};
-    }
+    width: 500px;
   }
 `
 
